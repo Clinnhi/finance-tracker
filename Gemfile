@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.1.1'
 
 
 gem 'puma', '~> 3.0'
@@ -35,3 +35,5 @@ group :production do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'rails_12factor', '~> 0.0.3'
+ 
