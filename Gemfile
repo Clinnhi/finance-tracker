@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.1.1'
 
+gem 'devise' 
 
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -36,4 +37,6 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails_12factor', '~> 0.0.3'
+
+
  
