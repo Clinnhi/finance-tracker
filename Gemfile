@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.1.1' 
 
+# CUSTOM GEMS
+gem 'iex-ruby-client'
+gem "font-awesome-rails"
 gem 'devise' 
+gem 'devise-bootstrap-views', '~> 1.0'
 
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
