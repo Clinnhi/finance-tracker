@@ -25,9 +25,11 @@ Rails.application.configure do
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   # config.assets.compile = false
   # config.assets.debug = true
-  
-  config.assets.compile = ['*.js', '*.css']
-  config.active_support.deprecation = :silence
+  config.serve_static_assets = true
+  config.assets.compile = true
+  config.assets.digest = true
+  # config.assets.compile = ['*.js', '*.css']
+  # config.active_support.deprecation = :silence
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
