@@ -1,1 +1,1 @@
-This is the finance tracker app 
+This application was created to further enhance my ruby skills.
